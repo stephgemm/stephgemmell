@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About Steph",
+      "description": "Here's a bit about my background and current projects!",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-04-13T20:24:55-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Steph Gemmell",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-04-13T20:23:26-04:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}

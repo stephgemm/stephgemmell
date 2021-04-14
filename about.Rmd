@@ -1,0 +1,9 @@
+---
+title: "About Steph"
+description: |
+  Here's a bit about my background and current projects!
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

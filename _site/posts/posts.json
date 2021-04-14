@@ -1,0 +1,53 @@
+[
+  {
+    "path": "posts/2021-04-13-newpost/",
+    "title": "new_post",
+    "description": "This is my first post.",
+    "author": [
+      {
+        "name": "Steph Gemmell",
+        "url": {}
+      }
+    ],
+    "date": "2021-04-13",
+    "categories": [],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-04-13T20:09:36-04:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-04-13-secondpost/",
+    "title": "second_post",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Steph Gemmell",
+        "url": {}
+      }
+    ],
+    "date": "2021-04-13",
+    "categories": [],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-04-13T20:23:26-04:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Steph Gemmell",
+    "description": "Welcome to my professional portfolio!",
+    "author": [
+      {
+        "name": "Steph Gemmell",
+        "url": {}
+      }
+    ],
+    "date": "2021-04-13",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-04-13T20:26:03-04:00",
+    "input_file": "welcome.utf8.md"
+  }
+]
