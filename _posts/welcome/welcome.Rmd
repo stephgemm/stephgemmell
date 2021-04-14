@@ -3,7 +3,7 @@ title: "Steph Gemmell"
 description: |
   Welcome to my professional portfolio! 
 author:
-  - name: Steph Gemmell 
+  - name: Steph Gemmell
     url: 
     affiliation: 
     affiliation_url: 
