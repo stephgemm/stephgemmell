@@ -1,7 +1,7 @@
 ---
-title: "new_post"
+title: "Data Journalism: 2020 Campaign Events by Candidate and State"
 description: |
-  This is my first post to this site.
+  Here's an analysis showing the presidential candidates with the most campaign events during the 2020 election, in addition to a breakdown of the top 5 states where candidates hosted events most frequently.
 author:
   - name: Steph Gemmell
     url: 
@@ -13,11 +13,53 @@ output:
 
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+
+knitr::opts_chunk$set(echo = TRUE)
+library(flexdashboard)
+library(tidyverse)
+library(lubridate)
+library(janitor)
+library(glue)
+library(plotly)
+library(DT)
+library(kableExtra)
+library(htmlwidgets)
+library(htmltools)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+Candidates with the most campaign events
+=====================================
+Pete Buttigieg, Elizabeth Warren, Amy Klobuchar, Bernie Sanders, and Beto O'Rourke hosted the most campaign events leading up to the 2020 presidential elelection.
 
+```{r}
+fig <- plot_ly(
+  x = c("Buttigieg", "Warren", "Klobuchar", "Sanders", "O'Rourke"),
+  y = c(74, 73, 70, 67, 64),
+  type = "bar",
+  color = "orange"
+)
+fig <- fig %>% layout(title = "Candidates with Most Campaign Events",
+         xaxis = list(title = "Candidate"),
+         yaxis = list (title = "Number of Campaign Events"))
 
+fig
+```
+
+States hosting the most campaign events
+=====================================
+Iowa, New Hampshire, South Carolina, Washington, DC, and California were the five most popular locations for 2020 presidential candidates' campaign events. (Percentages based on data for top 5 states only)
+
+```{r}
+State <- c("IA", "NH", "SC", "DC", "CA")
+EventNumber <- c(200, 132, 90, 86, 69)
+df <- data.frame(State, EventNumber)
+fig <- df %>% plot_ly(labels = ~State, values = ~EventNumber)
+fig <- fig %>% add_pie(hole = 0.6)
+fig <- fig %>% layout(
+                  title = "States hosting the most campaign events",  showlegend = F,
+                  xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+                  yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+
+fig
+```

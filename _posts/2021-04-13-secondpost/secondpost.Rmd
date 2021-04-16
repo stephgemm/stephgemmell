@@ -1,7 +1,7 @@
 ---
-title: "second_post"
+title: "Data Journalism: Consumer Complaints: Untimely Responses"
 description: |
-  A description of my post!
+  Here is an analysis of consumer complaints from March 2020 to December 2020 that did not receive timely responses. Source: Consumer Financial Protection Bureau
 author:
   - name: Steph Gemmell
     url: {}
@@ -14,10 +14,73 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(flexdashboard)
+library(tidyverse)
+library(lubridate)
+library(janitor)
+library(glue)
+library(plotly)
+library(DT)
+library(kableExtra)
+library(htmlwidgets)
+library(htmltools)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+Product Categories
+=====================================
+Out of more than 390,000 consumer complaints, just under 1 percent did not receive a timely response.
+Among the complaints that did not receive a timely response, the top five product categories involved were:
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+```{r}
+Products <- c('Credit reporting or repair','Debt collection','Credit card or prepaid card','Mortgage','Checking or savings account')
+Incidences <- c(255748,46088,29128,20940,20679)
+df <- data.frame(Products, Incidences)
+fig <- df %>% plot_ly(labels = ~Products, values = ~Incidences)
+fig <- fig %>% add_pie(hole = 0.6)
+fig <- fig %>% layout(
+                  title = "Products Involved in Complaints with Untimely Responses",  showlegend = F,
+                  xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+                  yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+
+fig
+```
+
+Company Responses
+=====================================
+The results consumers received in cases where the company failed to provide a timely response included:
+
+```{r}
+fig <- plot_ly(
+  x = c("Closed with explanation","Untimely response","Closed with non-monetary relief","Closed with monetary relief"),
+  y = c(2550,1129,66,61),
+  type = "bar",
+  color = "orange"
+)
+fig <- fig %>% layout(title = "Company Responses to Consumers",
+         xaxis = list(title = "Response"),
+         yaxis = list (title = "Number of Occurrences"))
+
+fig
+```
+
+Companies
+=====================================
+The 10 companies that failed to provide timely responses to consumer complaints most often included:
+
+```{r}
+fig <- plot_ly(
+  x = c("Xerox State & Local Solutions, Inc.","Army and Air Force Exchange Service","Lending Club Corp","Atlanticus Services Corporation","MoneyLion Inc.","Carter-Young, Inc.","WAKEFIELD & ASSOCIATES, INC.","WELLS FARGO & COMPANY","AmerAssist A/R Solutions, Inc.","Capital Accounts, LLC"),
+  y = c(413,85,84,68,64,61,56,54,52,51),
+  type = "bar",
+  color = "orange"
+)
+fig <- fig %>% layout(title = "Companies Providing Most Untimely Responses",
+         xaxis = list(title = "Companies"),
+         yaxis = list (title = "Number of Unitmely Responses"))
+
+fig
+```
+```
+
 
 
