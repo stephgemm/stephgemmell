@@ -1,7 +1,7 @@
 ---
 title: "Data Journalism: 2020 Campaign Events by Candidate and State"
 description: |
-  Here's an analysis showing the presidential candidates with the most campaign events during the 2020 election, in addition to a breakdown of the top 5 states where candidates hosted events most frequently.
+  Here's an analysis showing the presidential candidates with the most campaign events during the 2020 election, in addition to a breakdown of the top 5 states where candidates hosted the most events.
 author:
   - name: Steph Gemmell
     url: 
@@ -14,7 +14,7 @@ output:
 
 ```{r setup, include=FALSE}
 
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 library(flexdashboard)
 library(tidyverse)
 library(lubridate)
@@ -30,7 +30,7 @@ library(htmltools)
 
 Candidates with the most campaign events
 =====================================
-Pete Buttigieg, Elizabeth Warren, Amy Klobuchar, Bernie Sanders, and Beto O'Rourke hosted the most campaign events leading up to the 2020 presidential elelection.
+Pete Buttigieg, Elizabeth Warren, Amy Klobuchar, Bernie Sanders, and Beto O'Rourke hosted the most campaign events leading up to the 2020 presidential election.
 
 ```{r}
 fig <- plot_ly(
@@ -48,7 +48,8 @@ fig
 
 States hosting the most campaign events
 =====================================
-Iowa, New Hampshire, South Carolina, Washington, DC, and California were the five most popular locations for 2020 presidential candidates' campaign events. (Percentages based on data for top 5 states only)
+Iowa, New Hampshire, South Carolina, Washington, DC, and California were the five most popular locations for 2020 presidential candidates' campaign events. 
+(Percentages based on data for the top 5 states only)
 
 ```{r}
 State <- c("IA", "NH", "SC", "DC", "CA")

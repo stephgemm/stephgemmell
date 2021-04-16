@@ -19,5 +19,4 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-
-
+Welcome to my portfolio site! This site was originally created for SMPA 3230, Data Journalism, at GW.

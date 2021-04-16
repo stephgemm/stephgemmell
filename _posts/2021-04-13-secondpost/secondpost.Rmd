@@ -1,7 +1,8 @@
 ---
-title: "Data Journalism: Consumer Complaints: Untimely Responses"
+title: "Data Journalism: Consumer Complaints - Untimely Responses"
 description: |
-  Here is an analysis of consumer complaints from March 2020 to December 2020 that did not receive timely responses. Source: Consumer Financial Protection Bureau
+  Here's an analysis of consumer complaints from March 2020 to December 2020 that did not receive timely responses. 
+  Source: Consumer Financial Protection Bureau
 author:
   - name: Steph Gemmell
     url: {}
