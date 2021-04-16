@@ -1,5 +1,5 @@
 ---
-title: "Steph Gemmell"
+title: "Welcome"
 description: |
   Welcome to my professional portfolio! 
 author:
