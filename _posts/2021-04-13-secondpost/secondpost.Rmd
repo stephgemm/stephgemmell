@@ -28,7 +28,7 @@ library(htmltools)
 
 Product Categories
 =====================================
-Out of more than 390,000 consumer complaints, just under 1 percent did not receive a timely response.
+Out of more than 390,000 consumer complaints, just under 1 percent did not receive a timely response. I isolated the data on these complaints to investigate the product categories that most frequently prompted complaints and failed to provide timely responses.
 Among the complaints that did not receive a timely response, the top five product categories involved were:
 
 ```{r}
@@ -65,7 +65,7 @@ fig
 
 Companies
 =====================================
-The 10 companies that failed to provide timely responses to consumer complaints most often included:
+The 10 companies that failed to provide timely responses to consumer complaints most frequently included:
 
 ```{r}
 fig <- plot_ly(
