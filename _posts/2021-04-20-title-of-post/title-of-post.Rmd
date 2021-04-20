@@ -1,0 +1,38 @@
+---
+title: "GW Research Showcase 2021 Poster"
+description: |
+  I had the opportunity to present my senior thesis research through the Enosinian Scholars Program at GW's 2021 Research Showcase. This poster provides an overview of my research topic and what I found!
+author:
+  - name: Steph Gemmell
+    url: {}
+date: 04-20-2021
+output:
+  distill::distill_article:
+    self_contained: false
+categories: 
+  - research
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+![](images/Gemmell-Stephanie-Poster%20PDF%20v2%20-%20final.jpg "Neurotheology and Free Will in Kierkegaardian Existentialism")
+
+My research uses ideas from the emerging interdisciplinary field of **neurotheology** to reconsider free
+will in the work of Søren Kierkegaard. Neurotheology essentially exists at the intersections of neuroscience and religious studies, and research in neurotheology seeks to support a productive dialogue between the two disciplines.
+
+**In conducting my project, I critically compared the findings of neuroscientific research into decision-making with expressions of free will in Kierkegaard's philosophical and theological writings.**
+
+Neuroscientists have used neuroimaging to identify two key pathways supporting decision-making. The
+**valuation system**---which includes the ventromedial prefrontal cortex (shown in green in the center diagram) and a dopamine reward system---facilitates preconscious processing. The **choice system**---including the dorsolateral prefrontal cortex (blue), the anterior cingulate cortex (pink), and parietal regions---supports the conscious components of making a choice. The somatic marker hypothesis suggests that physiological markers of emotional states can impact the valuation system during decision-making, and research also shows how emotion regulation strategies can help to mediate the impact of emotional states on those preconscious processes.
+
+Clearly, Kierkegaard did not have access to this information during his lifetime, but I argue that his work
+reflects a really nuanced understanding of the **complexities of decision-making**, partly rooted in his deep interest in psychology. Kierkegaard frequently wrote using pseudonyms, and his philosophical and theological works are notoriously difficult to interpret, but Kierkegaard's journals provide clearer expressions of the consistencies in his thought.
+
+Based on existing scholarship linking Kierkegaard's work to emotion regulation strategies and my own analysis of Kierkegaard's applications of free will in the context of his journals, I found that Kierkegaard's work reflects two specific **emotion regulation strategies**, attentional deployment and cognitive reappraisal.
+
+In addition to emotion regulation and decision-making, I found that Kierkegaard's perspective regarding the relationship between authentic self-identity and volition has been corroborated by research involving
+the psychological concept of **differentiation of self** developed by Murray Bowen. Also, Bowen's notions of the "solid self" as a person's authentic identity and the "pseudo-self" as the aspects of a person that are entirely guided by an external group also reaffirm key components of Kierkegaard's philosophy. Empirical research testing Bowen's theoretical frameworks continues to support the validity of these ideas.
+
+Based on my analysis, I argue that these parallels between Kierkegaard's views and contemporary findings support the enduring viability of Kierkegaard's ideas, because decision-making plays a crucial role in Kierkegaardian thought. Also, this neurotheological analysis reflects the opportunities that exist for religious studies scholars to critically reconceptualize philosophical and theological thought within the context of contemporary neuroscience.

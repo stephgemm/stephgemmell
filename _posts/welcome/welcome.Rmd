@@ -11,6 +11,8 @@ date: 04-13-2021
 output:
   distill::distill_article:
     self_contained: false
+categories:
+  - smpa
 ---
 
 ```{r setup, include=FALSE}
