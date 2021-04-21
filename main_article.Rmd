@@ -1,7 +1,6 @@
 ---
 title: "Steph Gemmell"
-description: |
-  Welcome to my portfolio site!
+description: 
 output: distill::distill_article
 ---
 
