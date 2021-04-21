@@ -2042,8 +2042,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
   <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
+  <style type="text/css">
+  .distill-site-nav a:hover {
+    color: #5DEBFA;
+  }
+  body {
+    background-color: #F1FCFE;
+  }
+  </style>
   <!--/radix_placeholder_site_in_header-->
 
+  <link rel="stylesheet" href="styles.css" type="text/css"/>
 
 </head>
 
@@ -2064,8 +2073,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
-<a href="index.html">Home</a>
+<a href="main_article.html">Home</a>
+<a href="index.html">Posts</a>
 <a href="about.html">About</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Contributor Pages
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="https://gw.therival.online/search?q=stephanie+gemmell">The Rival GW</a>
+<a href="https://www.heraldmailmedia.com/users/profile/sgemmell/">Herald-Mail Media</a>
+</div>
+</div>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>

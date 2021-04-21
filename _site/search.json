@@ -6,14 +6,22 @@
       "description": "Here's a bit about my background and recent projects!",
       "author": [],
       "contents": "\r\nI’m a writer, researcher, and composer currently living in Pennsylvania. I will be graduating from George Washington University this May, with a BA in Religious Studies and minors in Psychological & Brain Sciences and Journalism & Mass Communication. Some of my writing has recently been published in Just Place Chapbook, Capitol Letters, The Ekphrastic Review, The Rival GW, and in the anthology Falling Leaves published by Day Eight.\r\nI will begin my MPhil in Theology at the University of Oxford this fall, concentrating in modern theology, religion, and science. My research focuses on contemporary neuroscientific findings involving preconscious and conscious processing, decision-making, and self-identity in relationship with historical concepts of free will, selfhood, and subjectivity in philosophy and theology.\r\nI am also a composer and arranger, and some of my recent projects are posted on my Musescore dashboard.\r\nAcross disciplines and genres, all of my work is motivated by the unique power of art and writing to ask meaningful questions and inspire authenticity.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-16T17:39:34-04:00"
+      "last_modified": "2021-04-20T20:48:47-04:00"
     },
     {
       "path": "index.html",
       "title": "Steph Gemmell",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-16T17:39:35-04:00"
+      "last_modified": "2021-04-20T20:48:29-04:00"
+    },
+    {
+      "path": "main_article.html",
+      "title": "Steph Gemmell",
+      "description": "Welcome to my portfolio site!\n",
+      "author": [],
+      "contents": "\r\nWelcome\r\nWelcome to my portfolio site! This website was originally created for SMPA 3230, Data Journalism, at George Washington University.\r\nSome of my data journalism projects are posted under the category SMPA.\r\nAbout\r\nI’m a writer, researcher, and composer, and I’m about to graduate from George Washington University in May!\r\nTo learn more about me, check out the About page.\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-04-20T20:46:54-04:00"
     }
   ],
   "collections": ["posts/posts.json"]

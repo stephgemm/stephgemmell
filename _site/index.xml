@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Steph Gemmell</title>
+    <link>https://stephgemmell.netlify.app/</link>
+    <atom:link href="https://stephgemmell.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Welcome to my professional portfolio! 
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>GW Research Showcase 2021 Poster</title>
+      <dc:creator>Steph Gemmell</dc:creator>
+      <link>https://stephgemmell.netlify.app/posts/2021-04-20-title-of-post</link>
+      <description>I had the opportunity to present my senior thesis research through the Enosinian Scholars Program at GW's 2021 Research Showcase. This poster provides an overview of my research topic and what I found!</description>
+      <category>research</category>
+      <guid>https://stephgemmell.netlify.app/posts/2021-04-20-title-of-post</guid>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Data Journalism: 2020 Campaign Events by Candidate and State</title>
+      <dc:creator>Steph Gemmell</dc:creator>
+      <link>https://stephgemmell.netlify.app/posts/2021-04-13-newpost</link>
+      <description>Here's an analysis showing the presidential candidates with the most campaign events during the 2020 election, in addition to a breakdown of the top 5 states where candidates hosted the most events.</description>
+      <category>research</category>
+      <category>smpa</category>
+      <guid>https://stephgemmell.netlify.app/posts/2021-04-13-newpost</guid>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Data Journalism: Consumer Complaints - Untimely Responses</title>
+      <dc:creator>Steph Gemmell</dc:creator>
+      <link>https://stephgemmell.netlify.app/posts/2021-04-13-secondpost</link>
+      <description>Here's an analysis of consumer complaints from March 2020 to December 2020 that did not receive timely responses. 
+Source: Consumer Financial Protection Bureau</description>
+      <category>research</category>
+      <category>smpa</category>
+      <guid>https://stephgemmell.netlify.app/posts/2021-04-13-secondpost</guid>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome</title>
+      <dc:creator>Steph Gemmell</dc:creator>
+      <link>https://stephgemmell.netlify.app/posts/welcome</link>
+      <description>Welcome to my professional portfolio!</description>
+      <category>smpa</category>
+      <guid>https://stephgemmell.netlify.app/posts/welcome</guid>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -2,11 +2,22 @@ name: "stephgemmell"
 title: "Steph Gemmell"
 description: |
   Welcome to my professional portfolio! 
+base_url: https://stephgemmell.netlify.app/
 output_dir: "_site"
 navbar:
   right:
     - text: "Home"
+      href: main_article.html
+    - text: "Posts"
       href: index.html
     - text: "About"
       href: about.html
-output: distill::distill_article
+    - text: "Contributor Pages"
+      menu:
+        - text: "The Rival GW"
+          href: https://gw.therival.online/search?q=stephanie+gemmell
+        - text: "Herald-Mail Media"
+          href: https://www.heraldmailmedia.com/users/profile/sgemmell/
+output: 
+  distill::distill_article:
+    css: styles.css

@@ -1,0 +1,24 @@
+---
+title: "Steph Gemmell"
+description: |
+  Welcome to my portfolio site!
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Welcome
+
+[Welcome](https://stephgemmell.netlify.app/posts/welcome/) to my portfolio site! This website was originally created for SMPA 3230, Data Journalism, at George Washington University.
+
+Some of my data journalism projects are posted under the category [SMPA](https://stephgemmell.netlify.app/#category:smpa).
+
+# About
+
+I'm a writer, researcher, and composer, and I'm about to graduate from George Washington University in May!
+
+To learn more about me, check out the [About](https://stephgemmell.netlify.app/about.html) page.
+
+![](images/Linkedin%20Banner.png)
