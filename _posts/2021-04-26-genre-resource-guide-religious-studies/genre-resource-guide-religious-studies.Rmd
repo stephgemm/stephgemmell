@@ -1,0 +1,64 @@
+---
+title: "Pedagogy: Genre Resource Guide"
+description: |
+  I developed this guide in my pedagogy and practicum class for use by my coworkers at GW's Writing Center. This resource provides advice for guiding students writing papers in the field of religious studies for the first time.
+author:
+  - name: Steph Gemmell
+    url: {}
+date: 04-26-2021
+output:
+  distill::distill_article:
+    self_contained: false
+categories:
+  - research
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+**Genre Resource Guide: Critical Analyses of Religious Texts**
+
+***The Religion Department as a Discourse Community***
+
+John Swales defines the term "discourse community" using six criteria. To be classified as a discourse community, a group must have "a broadly agreed set of common public goals," as well as "mechanisms of intercommunication among its members" (Swales 471). Additionally, a discourse community "uses its participatory mechanisms primarily to provide information and feedback," and it employs one or more genres in order to fulfill the group's objectives (472). Finally, a discourse community has specialized terminology, and its members must meet a threshold based on their knowledge and experience communicating information about a discipline (473).
+
+The Religion Department at GW functions as a discourse community, its primary goals being to further the academic study of religious traditions and to help students understand the complex impacts of religion around the world (Wood). The purpose of courses in the Religion Department is to "help students to develop the critical thinking skills necessary to comprehend the role that religions play in the lives of individuals, communities, and the world" ("Department of Religion"). The discourse community utilizes emails and department newsletters to support communication between both faculty members and students.
+
+Functioning as part of the broader discourse community of religious studies, the department utilizes genres specific to religion and has a specialized vocabulary for describing religious phenomena. The Religion Department also has a threshold for membership based on academic and professional experience, fulfilling Swales' sixth standard for discourse communities. As novices in the religious studies discourse community, students in religion classes are often given writing assignments that simplify genres used by professionals in the field. For example, papers analyzing religious texts allow students to develop a deeper understanding of religious literature within specific communities and traditions.
+
+***Genre Overview: Critical Analyses of Religious Texts***
+
+Within the Religion Department and the field of religious studies more broadly, papers critically analyzing religious texts directly support the goals of exploring the world's religious traditions and helping students to better grasp the meaning and influence of religions. Critical analysis papers written by both academics and students further dialogue and understanding by seeking to interpret the significance of religious texts for the communities in which they exist (Wood). Interpreting the meaning of a text within its own tradition can provide insights into the values and beliefs of a religious group, furthering the discourse community's goal of promoting an understanding of religions.
+
+The format of a critical analysis paper may vary based on the research methodologies the writer is using, and professors typically include formatting guidelines in their assignments. Therefore, the most unique aspect of writing a critical analysis paper in religion involves the process of studying and interpreting a specific religious text. Writing about religious texts often involves analyzing texts that communities consider to be sacred or authoritative, including narratives, myths, and religious poetry ("Religious Studies"). Notably, the use of the term "myth" in religious studies does not suggest that a particular story or narrative is false. Instead, myths are treated as "perceptions of truth" (Wood). Therefore, understanding and interpreting myths is an integral focus of religious studies as an academic discipline (Wood).
+
+***Considerations for Writing in Religious Studies***
+
+Religious studies is an interdisciplinary field, meaning that students have access to a variety of research methodologies when writing religion papers (Wood). These include literary, anthropological, historical, comparative, and sociological perspectives ("Religious Studies"). Because there are multiple potential approaches to researching topics in religious studies, it is important for students to be aware of which methodologies they are using (Wood). When advising students who are new to writing in religious studies, consultants can ask which methodologies they are interested in or would feel most comfortable using.
+
+Students writing religion papers should also recognize that the field of religious studies focuses on examining religious phenomena from a secular, academic perspective. Approaching religious studies in this way helps to minimize the presence of biases, helping to foster the constructive and respectful engagement necessary to understand different religions. Students studying religion for the first time commonly conflate the discipline of religious studies with faith-oriented or "confessional" approaches (Wood). Students should not attempt to prove or refute aspects of a religious tradition's belief system. Instead, writers should focus on presenting an understanding of religion from "a perspective that can be shared by all" ("Religious Studies"). Therefore, students writing religion papers should be especially cognizant of their own preconceptions and biases regarding religion to ensure that their reasoning is sound.
+
+**Approaches to Analyzing Religious Texts**
+
+![](images/Religion%20Genre%20Resource%20Guide%20image.jpg)
+
+*Fig. 1. Possible approaches and considerations for analyzing religious texts*
+
+A common approach to interpreting religious texts is to view them as a type of literature, exploring their distinctive features through a lens of literary analysis ("Religious Studies"). For students who are familiar with interpreting literature and analyzing literary devices but are new to writing in religious studies, viewing an analysis paper in religion from a literary analysis perspective could be helpful. Additionally, by approaching religious texts in this way, writers are able to explore the meaning and significance of religious literature without making implications about the narratives' truth. Writers can also consider researching the historical context in which a religious text was written, as well as what meaning and significance the text currently has within a religious tradition (see fig. 1).
+
+For example, a student writing a paper about female prophets in the Hebrew Bible might ask the following questions:
+
+![](images/resource%20guide%20image2.PNG)
+
+**Works Cited**
+
+"Department of Religion: The George Washington University." Department of Religion, The George Washington University, 2019, religion.columbian.gwu.edu/.
+
+Marsman, Hennie J. Women in Ugarit and Israel: Their Social and Religious Position in the Context of the Ancient Near East. Brill, 2003.
+
+"Religious Studies." The Writing Center, UNC Chapel Hill, 2019, writingcenter.unc.edu/tips-and-tools/religious-studies/.
+
+Swales, John. "The Concept of Discourse Community." Writing About Writing: A College Reader, edited by Elizabeth Wardle and Doug Downs, St. Martin's, 2010, pp. 466--479.
+
+Wood, Jon D. Personal Interview. 9 Sept. 2019.
