@@ -18,6 +18,16 @@ navbar:
           href: https://gw.therival.online/search?q=stephanie+gemmell
         - text: "Herald-Mail Media"
           href: https://www.heraldmailmedia.com/users/profile/sgemmell/
+    - text: "Work Samples"
+      menu:
+        - text: "Data Journalism - Consumer Complaints"
+          href: secondpost.html
+        - text: "Data Journalism - 2020 Campaign Events"
+          href: newpost.html
+        - text: "Research Showcase 2021 Poster"
+          href: title-of-post.html
+        - text: "Science Journalism Feature"
+          href: sciencejournalismfeature.html
 output: 
   distill::distill_article:
     css: styles.css

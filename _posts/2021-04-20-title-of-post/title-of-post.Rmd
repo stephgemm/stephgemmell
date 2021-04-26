@@ -1,7 +1,7 @@
 ---
 title: "GW Research Showcase 2021 Poster"
 description: |
-  I had the opportunity to present my senior thesis research through the Enosinian Scholars Program at GW's 2021 Research Showcase. This poster provides an overview of my research topic and what I found!
+  I had the opportunity to present my senior thesis research through the Enosinian Scholars Program at GW's 2021 Research Showcase. I am grateful to have received the OVPR Cross-Disciplinary Research Award for this project. This poster provides an overview of my research topic and what I found!
 author:
   - name: Steph Gemmell
     url: {}
