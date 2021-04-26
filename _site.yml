@@ -28,6 +28,10 @@ navbar:
           href: title-of-post.html
         - text: "Science Journalism Feature"
           href: sciencejournalismfeature.html
+        - text:
+          href:
+        - text:
+          href:
 output: 
   distill::distill_article:
     css: styles.css
