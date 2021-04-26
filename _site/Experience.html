@@ -85,39 +85,638 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Film Analysis: Rich Hill</title>
+  <title>Steph Gemmell: Experience</title>
 
-  <meta property="description" itemprop="description" content="I wrote this film analysis in 2018 for my Documenting American Lives class. This article remains one of my favorite projects from undergrad outside of my primary research fields!"/>
+  <meta property="description" itemprop="description" content="Here is the information from my academic and professional CV!"/>
 
 
-  <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-04-26"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-04-26"/>
-  <meta name="article:author" content="Steph Gemmell"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Film Analysis: Rich Hill"/>
+  <meta property="og:title" content="Steph Gemmell: Experience"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="I wrote this film analysis in 2018 for my Documenting American Lives class. This article remains one of my favorite projects from undergrad outside of my primary research fields!"/>
+  <meta property="og:description" content="Here is the information from my academic and professional CV!"/>
   <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="Steph Gemmell"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Film Analysis: Rich Hill"/>
-  <meta property="twitter:description" content="I wrote this film analysis in 2018 for my Documenting American Lives class. This article remains one of my favorite projects from undergrad outside of my primary research fields!"/>
+  <meta property="twitter:title" content="Steph Gemmell: Experience"/>
+  <meta property="twitter:description" content="Here is the information from my academic and professional CV!"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","categories"]}},"value":[{"type":"character","attributes":{},"value":["Film Analysis: Rich Hill"]},{"type":"character","attributes":{},"value":["I wrote this film analysis in 2018 for my Documenting American Lives class. This article remains one of my favorite projects from undergrad outside of my primary research fields!\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Steph Gemmell"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]},{"type":"character","attributes":{},"value":["04-26-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["research"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["Experience"]},{"type":"character","attributes":{},"value":["Here is the information from my academic and professional CV!\n"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  
-  <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["filmanalysis_files/anchor-4.2.2/anchor.min.js","filmanalysis_files/bowser-1.9.3/bowser.min.js","filmanalysis_files/distill-2.2.21/template.v2.js","filmanalysis_files/header-attrs-2.6/header-attrs.js","filmanalysis_files/jquery-1.11.3/jquery.min.js","filmanalysis_files/popper-2.6.0/popper.min.js","filmanalysis_files/tippy-6.2.7/tippy-bundle.umd.min.js","filmanalysis_files/tippy-6.2.7/tippy-light-border.css","filmanalysis_files/tippy-6.2.7/tippy.css","filmanalysis_files/tippy-6.2.7/tippy.umd.min.js","filmanalysis_files/webcomponents-2.0.0/webcomponents.js"]}
-  </script>
   <!--radix_placeholder_navigation_in_header-->
+  <meta name="distill:offset" content=""/>
+
+  <script type="application/javascript">
+
+    window.headroom_prevent_pin = false;
+
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+
+      // initialize headroom for banner
+      var header = $('header').get(0);
+      var headerHeight = header.offsetHeight;
+      var headroom = new Headroom(header, {
+        tolerance: 5,
+        onPin : function() {
+          if (window.headroom_prevent_pin) {
+            window.headroom_prevent_pin = false;
+            headroom.unpin();
+          }
+        }
+      });
+      headroom.init();
+      if(window.location.hash)
+        headroom.unpin();
+      $(header).addClass('headroom--transition');
+
+      // offset scroll location for banner on hash change
+      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
+      window.addEventListener("hashchange", function(event) {
+        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
+      });
+
+      // responsive menu
+      $('.distill-site-header').each(function(i, val) {
+        var topnav = $(this);
+        var toggle = topnav.find('.nav-toggle');
+        toggle.on('click', function() {
+          topnav.toggleClass('responsive');
+        });
+      });
+
+      // nav dropdowns
+      $('.nav-dropbtn').click(function(e) {
+        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
+        $(this).parent().siblings('.nav-dropdown')
+           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $("body").click(function(e){
+        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $(".nav-dropdown").click(function(e){
+        e.stopPropagation();
+      });
+    });
+  </script>
+
+  <style type="text/css">
+
+  /* Theme (user-documented overrideables for nav appearance) */
+
+  .distill-site-nav {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #0F2E3D;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .distill-site-nav a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .distill-site-nav a:hover {
+    color: white;
+  }
+
+  @media print {
+    .distill-site-nav {
+      display: none;
+    }
+  }
+
+  .distill-site-header {
+
+  }
+
+  .distill-site-footer {
+
+  }
+
+
+  /* Site Header */
+
+  .distill-site-header {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 3;
+  }
+
+  .distill-site-header .nav-left {
+    display: inline-block;
+    margin-left: 8px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header .nav-left {
+      margin-left: 0;
+    }
+  }
+
+
+  .distill-site-header .nav-right {
+    float: right;
+    margin-right: 8px;
+  }
+
+  .distill-site-header a,
+  .distill-site-header .title {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 10px 14px 10px;
+  }
+
+  .distill-site-header .title {
+    font-size: 18px;
+    min-width: 150px;
+  }
+
+  .distill-site-header .logo {
+    padding: 0;
+  }
+
+  .distill-site-header .logo img {
+    display: none;
+    max-height: 20px;
+    width: auto;
+    margin-bottom: -4px;
+  }
+
+  .distill-site-header .nav-image img {
+    max-height: 18px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: -3px;
+  }
+
+
+
+  @media screen and (min-width: 1000px) {
+    .distill-site-header .logo img {
+      display: inline-block;
+    }
+    .distill-site-header .nav-left {
+      margin-left: 20px;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 20px;
+    }
+    .distill-site-header .title {
+      padding-left: 12px;
+    }
+  }
+
+
+  .distill-site-header .nav-toggle {
+    display: none;
+  }
+
+  .nav-dropdown {
+    display: inline-block;
+    position: relative;
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 16px 10px;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    margin-top: 1px;
+    z-index: 2;
+  }
+
+  .nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+    margin-top: 2px;
+    white-space: nowrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .nav-dropdown-content hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-dropdown-active {
+    display: block;
+  }
+
+  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
+    color: black;
+    padding: 6px 24px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .nav-dropdown-content .nav-dropdown-header {
+    display: block;
+    padding: 5px 24px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999999;
+    white-space: nowrap;
+  }
+
+  .nav-dropdown:hover .nav-dropbtn {
+    color: white;
+  }
+
+  .nav-dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .nav-right .nav-dropdown-content {
+    margin-left: -45%;
+    right: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
+    .distill-site-header a.nav-toggle {
+      float: right;
+      display: block;
+    }
+    .distill-site-header .title {
+      margin-left: 0;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 0;
+    }
+    .distill-site-header {
+      overflow: hidden;
+    }
+    .nav-right .nav-dropdown-content {
+      margin-left: 0;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header.responsive {position: relative; min-height: 500px; }
+    .distill-site-header.responsive a.nav-toggle {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .distill-site-header.responsive a,
+    .distill-site-header.responsive .nav-dropdown {
+      display: block;
+      text-align: left;
+    }
+    .distill-site-header.responsive .nav-left,
+    .distill-site-header.responsive .nav-right {
+      width: 100%;
+    }
+    .distill-site-header.responsive .nav-dropdown {float: none;}
+    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
+    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  /* Site Footer */
+
+  .distill-site-footer {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 3;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  /* Headroom */
+
+  d-title {
+    padding-top: 6rem;
+  }
+
+  @media print {
+    d-title {
+      padding-top: 4rem;
+    }
+  }
+
+  .headroom {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .headroom--transition {
+    transition: all .4s ease-in-out;
+  }
+
+  .headroom--unpinned {
+    top: -100px;
+  }
+
+  .headroom--pinned {
+    top: 0;
+  }
+
+  /* adjust viewport for navbar height */
+  /* helps vertically center bootstrap (non-distill) content */
+  .min-vh-100 {
+    min-height: calc(100vh - 100px) !important;
+  }
+
+  </style>
+
+  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
+  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
+
+  <script type="application/javascript">
+
+  function getMeta(metaName) {
+    var metas = document.getElementsByTagName('meta');
+    for (let i = 0; i < metas.length; i++) {
+      if (metas[i].getAttribute('name') === metaName) {
+        return metas[i].getAttribute('content');
+      }
+    }
+    return '';
+  }
+
+  function offsetURL(url) {
+    var offset = getMeta('distill:offset');
+    return offset ? offset + '/' + url : url;
+  }
+
+  function createFuseIndex() {
+
+    // create fuse index
+    var options = {
+      keys: [
+        { name: 'title', weight: 20 },
+        { name: 'categories', weight: 15 },
+        { name: 'description', weight: 10 },
+        { name: 'contents', weight: 5 },
+      ],
+      ignoreLocation: true,
+      threshold: 0
+    };
+    var fuse = new window.Fuse([], options);
+
+    // fetch the main search.json
+    return fetch(offsetURL('search.json'))
+      .then(function(response) {
+        if (response.status == 200) {
+          return response.json().then(function(json) {
+            // index main articles
+            json.articles.forEach(function(article) {
+              fuse.add(article);
+            });
+            // download collections and index their articles
+            return Promise.all(json.collections.map(function(collection) {
+              return fetch(offsetURL(collection)).then(function(response) {
+                if (response.status === 200) {
+                  return response.json().then(function(articles) {
+                    articles.forEach(function(article) {
+                      fuse.add(article);
+                    });
+                  })
+                } else {
+                  return Promise.reject(
+                    new Error('Unexpected status from search index request: ' +
+                              response.status)
+                  );
+                }
+              });
+            })).then(function() {
+              return fuse;
+            });
+          });
+
+        } else {
+          return Promise.reject(
+            new Error('Unexpected status from search index request: ' +
+                        response.status)
+          );
+        }
+      });
+  }
+
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+
+    // get search element (bail if we don't have one)
+    var searchEl = window.document.getElementById('distill-search');
+    if (!searchEl)
+      return;
+
+    createFuseIndex()
+      .then(function(fuse) {
+
+        // make search box visible
+        searchEl.classList.remove('hidden');
+
+        // initialize autocomplete
+        var options = {
+          autoselect: true,
+          hint: false,
+          minLength: 2,
+        };
+        window.autocomplete(searchEl, options, [{
+          source: function(query, callback) {
+            const searchOptions = {
+              isCaseSensitive: false,
+              shouldSort: true,
+              minMatchCharLength: 2,
+              limit: 10,
+            };
+            var results = fuse.search(query, searchOptions);
+            callback(results
+              .map(function(result) { return result.item; })
+            );
+          },
+          templates: {
+            suggestion: function(suggestion) {
+              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
+                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
+                : '';
+              var html = `
+                <div class="search-item">
+                  <h3>${suggestion.title}</h3>
+                  <div class="search-item-description">
+                    ${suggestion.description || ''}
+                  </div>
+                  <div class="search-item-preview">
+                    ${img}
+                  </div>
+                </div>
+              `;
+              return html;
+            }
+          }
+        }]).on('autocomplete:selected', function(event, suggestion) {
+          window.location.href = offsetURL(suggestion.path);
+        });
+        // remove inline display style on autocompleter (we want to
+        // manage responsive display via css)
+        $('.algolia-autocomplete').css("display", "");
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+
+  });
+
+  </script>
+
+  <style type="text/css">
+
+  .nav-search {
+    font-size: x-small;
+  }
+
+  /* Algolioa Autocomplete */
+
+  .algolia-autocomplete {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: sub;
+    background-color: white;
+    color: black;
+    padding: 6px;
+    padding-top: 8px;
+    padding-bottom: 0;
+    border-radius: 6px;
+    border: 1px #0F2E3D solid;
+    width: 180px;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .distill-site-nav .algolia-autocomplete {
+      display: none;
+      visibility: hidden;
+    }
+    .distill-site-nav.responsive .algolia-autocomplete {
+      display: inline-block;
+      visibility: visible;
+    }
+    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
+      margin-left: 0;
+      width: 400px;
+      max-height: 400px;
+    }
+  }
+
+  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+    width: 90%;
+    outline: none;
+    border: none;
+  }
+
+  .algolia-autocomplete .aa-hint {
+    color: #999;
+  }
+  .algolia-autocomplete .aa-dropdown-menu {
+    width: 550px;
+    max-height: 70vh;
+    overflow-x: visible;
+    overflow-y: scroll;
+    padding: 5px;
+    margin-top: 3px;
+    margin-left: -150px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #999;
+    border-top: none;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+    cursor: pointer;
+    padding: 5px 4px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
+    border-bottom: none;
+    margin-bottom: 2px;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
+    overflow: hidden;
+    font-size: 0.8em;
+    line-height: 1.4em;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
+    font-size: 1rem;
+    margin-block-start: 0;
+    margin-block-end: 5px;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
+    display: inline-block;
+    overflow: hidden;
+    height: 2.8em;
+    width: 80%;
+    margin-right: 4%;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
+    display: inline-block;
+    width: 15%;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
+    height: 3em;
+    width: auto;
+    display: none;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
+    display: initial;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+    background-color: #eee;
+  }
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  </style>
+
+
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -1433,19 +2032,27 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="filmanalysis_files/header-attrs-2.6/header-attrs.js"></script>
-  <script src="filmanalysis_files/jquery-1.11.3/jquery.min.js"></script>
-  <script src="filmanalysis_files/popper-2.6.0/popper.min.js"></script>
-  <link href="filmanalysis_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="filmanalysis_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="filmanalysis_files/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="filmanalysis_files/anchor-4.2.2/anchor.min.js"></script>
-  <script src="filmanalysis_files/bowser-1.9.3/bowser.min.js"></script>
-  <script src="filmanalysis_files/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="filmanalysis_files/distill-2.2.21/template.v2.js"></script>
+  <script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
+  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
+  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
+  <style type="text/css">
+  .distill-site-nav a:hover {
+    color: #5DEBFA;
+  }
+  body {
+    background-color: #F1FCFE;
+  }
+  </style>
   <!--/radix_placeholder_site_in_header-->
 
+  <link rel="stylesheet" href="styles.css" type="text/css"/>
 
 </head>
 
@@ -1454,67 +2061,141 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Film Analysis: Rich Hill","description":"I wrote this film analysis in 2018 for my Documenting American Lives class. This article remains one of my favorite projects from undergrad outside of my primary research fields!","authors":[{"author":"Steph Gemmell","authorURL":{},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-04-26T00:00:00.000-04:00","citationText":"Gemmell, 2021"}
+{"title":"Experience","description":"Here is the information from my academic and professional CV!","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
+<header class="header header--fixed" role="banner">
+<nav class="distill-site-nav distill-site-header">
+<div class="nav-left">
+<a href="index.html" class="title">Steph Gemmell</a>
+<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
+</div>
+<div class="nav-right">
+<a href="main_article.html">Home</a>
+<a href="about.html">About</a>
+<a href="Experience.html">Experience/CV</a>
+<a href="index.html">Posts</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Contributor Pages
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="https://gw.therival.online/search?q=stephanie+gemmell">The Rival GW</a>
+<a href="https://www.heraldmailmedia.com/users/profile/sgemmell/">Herald-Mail Media</a>
+</div>
+</div>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Work Samples
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="https://stephgemmell.netlify.app/posts/2021-04-20-title-of-post/">Research Showcase 2021 Poster</a>
+<a href="https://stephgemmell.netlify.app/posts/2021-04-26-sciencejournalismfeature/">Science Journalism Feature</a>
+<a href="https://stephgemmell.netlify.app/posts/2021-04-13-secondpost/">Data Journalism - Consumer Complaints</a>
+<a href="https://stephgemmell.netlify.app/posts/2021-04-13-newpost/">Data Journalism - 2020 Campaign Events</a>
+<a href="https://stephgemmell.netlify.app/posts/2021-04-26-filmanalysis/">Film Analysis: Rich Hill</a>
+<a href="https://stephgemmell.netlify.app/posts/2021-04-26-genre-resource-guide-religious-studies/">Pedagogy: Genre Guide</a>
+</div>
+</div>
+<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
+</div>
+</nav>
+</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Film Analysis: Rich Hill</h1>
+<h1>Experience</h1>
 <!--radix_placeholder_categories-->
-<div class="dt-tags">
-<div class="dt=tag">research</div>
-</div>
 <!--/radix_placeholder_categories-->
-<p><p>I wrote this film analysis in 2018 for my Documenting American Lives class. This article remains one of my favorite projects from undergrad outside of my primary research fields!</p></p>
+<p><p>Here is the information from my academic and professional CV!</p></p>
 </div>
 
-<div class="d-byline">
-  Steph Gemmell true 
-  
-<br/>04-26-2021
-</div>
 
 <div class="d-article">
-<p><img src="https://miro.medium.com/max/875/1*FumW0XmN8avdq3N8NbblNw.png" /></p>
-<p><em>When filmmakers strive to facilitate storytelling as opposed to telling the story themselves, how does this decision affect the truthfulness and objectivity of a film? (from <a href="http://www.richhillfilm.com/">Rich Hill</a>)</em> In the 1920s, Scottish filmmaker John Grierson attempted to define a newly developing film genre which concentrated on chronicling real-life events. Grierson used the term “documentary”, describing it as an “artistic representation of actuality.” Although the genre has evolved significantly since its inception, the broadness and flexibility of Grierson’s definition reflects the breadth of contemporary documentary and the variation that exists within the genre today.</p>
-<p><strong><em>Many viewers watch documentaries expecting fair and honest presentations of reality, so it’s unsurprising that one of the foremost ongoing debates within the field involves filmmakers’ obligations to convey information objectively.</em></strong></p>
-<p>An especially relevant detail in the discussion over truth and objectivity in documentary is the way filmmakers view themselves and the relationship they have with their craft. As scholar Patricia Aufderheide explains,“most documentary filmmakers consider themselves storytellers, not journalists.”</p>
-<p>While the platform of broadcast reporting allows for some overlap between storytelling and journalism, the fact that documentary filmmakers primarily conceive of themselves as storytellers implies that documentary often does not operate within the confines of journalistic standards. But it’s generally accepted that documentarians possess a certain degree of responsibility to their audiences to fairly convey the events depicted in their films. While it’s likely impossible for any film to be entirely free from implicit bias, there may be ways for filmmakers to lessen the prevalence of subjectivity in their work. One film which strongly reflects this is the 2015 documentary <em>Rich Hill</em>.</p>
-<p><em>Rich Hill</em> follows the everyday lives of three boys in rural Missouri who face the challenges of growing up in poverty. Andrew, Harley, and Appachey have vastly different personalities, backgrounds, and outlooks, but their families all struggle to make ends meet. The film provides a candid view of poverty from a personal perspective, emphasizing the close bonds the boys have with their families while chronicling their most painful moments.</p>
-<p><strong><em>Rich Hill could be characterized as poignant, distressing, and warily hopeful. However, it might best be described as undeniably authentic and sincere.</em></strong></p>
-<p>Viewers perceive the boys’ plight through what researcher Dave Saunders refers to as “filmic mimesis” — testimony and direct recordings of their real lives. The only narration in <em>Rich Hill</em> comes from the boys and their families, suggesting that the filmmakers, Andrew Droz Palermo and Tracy Droz Tragos, intended to provide a platform for them to tell their own stories.</p>
-<p>This raises important questions about the role of documentarians as storytellers and the genre’s implicit claims to communicating truth. When filmmakers strive to facilitate storytelling as opposed to telling the story themselves, how does this decision affect the truthfulness and objectivity of a film?</p>
-<p><em>Rich Hill</em> is predominantly structured around the testimony and narration of the boys and their families. This provides viewers with the sense that the film’s subjects are conveying their experiences directly to the audience. So the role of storyteller is fulfilled more by the people being profiled in the film than by the filmmakers. This technique prevents documentarians from unintentionally incorporating their own perspectives into the retelling of events and reduces the likelihood of accidental mischaracterizations.</p>
-<p><img src="https://miro.medium.com/max/875/1*hu_CNMfGyx6wRf1lU6DIkw.png" /></p>
-<p><em>The role of storyteller is fulfilled more by the people being profiled in the film than by the filmmakers (from <a href="http://www.richhillfilm.com/">Rich Hill</a>)</em></p>
-<p>One powerful example of testimony and storytelling in <em>Rich Hill</em> comes from 13-year-old Andrew, describing how his family has moved in with relatives while his father searches for a job. Andrew explains, “we have clothes on our back, we have food in our stomach, but we don’t have a roof over our head [<em>sic</em>].” Andrew also describes the way that his father alternates between different jobs, saying, “he does not like to hold a steady job… He wants to start to try to do new things. I mean, that’s my dad’s thing. It’s his life. He has to live it, you know? He only has one life to live.” This first-person description directly reflects how Andrew views his father and the circumstances that he faces.</p>
-<p><strong><em>The filmmakers’ decision to format the film around narratives by the boys and their families contributes to its pervasive sense of authenticity. This choice also prevented the filmmakers from misinterpreting their subjects’ statements. The testimony included throughout the film gives it a feeling of intimacy while providing viewers with an awareness of the subjects’ own views.</em></strong></p>
-<p>While allowing a film’s subjects to tell their stories contributes to an honest representation of their perspectives, this format could easily be challenged as being affected by the narrators’ subjectivities and biases. However, <em>Rich Hill</em> relies largely on observational footage to document the circumstances which the boys confront, as well as their families’ lifestyles. This footage provides the audience with context and an increased awareness of the challenges the boys face. But it also contributes to the film’s truthfulness by presenting viewers with opportunities to examine claims made by the film’s subjects and compare them to the events that occur. As media scholar John Ellis writes, in documentary “the viewer’s judgment is guided both by the commentary and by their own observation.”</p>
-<p>One example of this in <em>Rich Hill</em> comes near the end of the film, when 12-year-old Appachey gets into a physical confrontation at school and is charged with assault. Both Appachey and his mother, Delena, describe what happened and explain that Appachey will be sent to a juvenile detention center. Before taking Appachey to court, Delena explains, “I do think it’ll be the best thing for him, but it still breaks my heart that he has to go. That’s my baby. But I’ve done everything I can for him.”</p>
-<p>While Delena makes a clear claim about her role as a parent, viewers are provided the context of her interactions with Appachey and his siblings as a means of judging the veracity of her statement. This is also true in numerous other instances throughout the film, and it is evident that the filmmakers made a conscious effort to fairly depict reality while structuring the film around its subjects’ stories.</p>
-<p><strong><em>Rich Hill is centered around its subjects’ narratives and uses candid, observational footage to convey their lifestyles and experiences. However, like all documentaries, the format and organization of the film was considerably influenced by the filmmakers’ editorial decisions.</em></strong></p>
-<p>As writer Luke Dormehl explains, “documentary requires an editorial decision with regard to content, and furthermore demands a context that extends beyond merely a superficial document of events.”</p>
-<p>This relates to the ways documentary filmmakers must evaluate the content of their footage in determining what to include and its relevance to the project as a whole. In crafting <em>Rich Hill</em>, it is apparent that Tracy Droz Tragos and Andrew Droz Palermo were careful to include footage that fairly represented varying aspects of the boys’ lives. For example, the film includes multiple instances of both Appachey and Harley smoking and engaging in heated arguments with their families. However, the film also depicts the strong bonds that exist between each of the boys and their families, even during moments of vulnerability.</p>
-<p>Based on the inclusion of all of these divergent aspects of the boys’ lives, the filmmakers were cautious to incorporate scenes that fairly represented the boys’ reality, as opposed to selectively choosing footage with the motivation of conveying a certain point. One specific editorial choice in the film is the inclusion of an auction scene at the carnival, in which the auctioneer calls, “come on folks…it’s only money.” This brief sentiment easily elicits a response of indignation from viewers, who have perceived how valuable money is to the boys and their families. The insertion of this particular excerpt was a clear editorial choice on the behalf of the filmmakers, but it’s only noteworthy to the audience as a result of the powerful narratives that precede it.</p>
-<p><strong><em>In discussing the documentary filmmakers’ editorial decisions, it’s also necessary to acknowledge that documentary remains an artistic medium. Although documentaries are meant to convey reality, filmmakers are still artists and their creativity is reflected in their work.</em></strong></p>
-<p>In his definition of documentary, Grierson unambiguously described it as “artistic”, reflecting the presence of creative elements in documentary films. In their artistic manipulations of footage, it would be possible for filmmakers to obscure truth and impede a film’s ability to communicate fact.</p>
-<p><img src="https://miro.medium.com/max/875/1*yv82YAXjidKXhOVZxthT1g.png" /></p>
-<p><em>Footage of a whirling, brightly lit carnival ride abruptly cuts to a washing machine spinning clothes in a laundromat where Appachey and his mother are doing laundry (from <a href="http://www.richhillfilm.com/">Rich Hill</a>)</em></p>
-<p>However, in <em>Rich Hill</em>, the filmmakers’ creative decisions don’t impact the film’s authenticity. One example of artistic manipulation in the film occurs after the boys visit a carnival in town. Footage of a whirling, brightly lit carnival ride abruptly cuts to a washing machine spinning clothes in a laundromat where Appachey and his mother are doing laundry. The juxtaposition of these two scenes effectively accentuates how the boys’ circumstances have forced them to grow up quickly. But this creative decision doesn’t detract from the film’s relative objectivity.</p>
-<p><img src="https://miro.medium.com/max/875/1*p_tg17P-niHPNhfmAERVTA.png" /></p>
-<p><em>These visuals don’t detract from the film’s truthfulness or affect the audience’s perception of the boys’ lives. Instead, they provide viewers with context and a sense of familiarity with the film’s setting (from <a href="http://www.richhillfilm.com/">Rich Hill</a>)</em></p>
-<p>Another artistic aspect of the film is the inclusion of landscape shots depicting open plains and lush fields, as well as abandoned industrial buildings in town and trains as they pass. The filmmakers also incorporate footage of fireworks, using a bokeh effect as the images fade into the next scene. These visuals don’t detract from the film’s truthfulness or affect the audience’s perception of the boys’ lives. Instead, they provide viewers with context and a sense of familiarity with the film’s setting. These examples reflect the filmmakers’ success in incorporating artistic elements and making editorial decisions while maintaining the film’s honesty and credibility.</p>
-<p>A relevant component of <em>Rich Hill</em> which contributes to its sense of authenticity is the conclusion. In the final scene of the film, Harley speaks directly to the filmmakers before getting on the bus to go to school. Harley tries to make them laugh, saying, “looking at me through the lens, like it’s some special lens or something. It’s just a special face behind the lens.” Interestingly, the film concludes with an explicit recognition of the filmmakers’ presence.</p>
-<p>This relates to a statement made by author Robert Anton Wilson in reaction to Orson Welles’ film <em>F is for Fake</em>. Wilson asserted, “a documentary that admits it’s lying is honest; a documentary that pretends to be honest is lying.”</p>
-<p><strong><em>By including footage that acknowledges their own presence, the filmmakers reaffirm that in making Rich Hill they strove to make the film as authentic and truthful as possible — again being guided by the narratives and statements of their subjects.</em></strong></p>
-<p>Overall, <em>Rich Hill</em> provided Andrew, Harley, Appachey, and their families with a dignified platform to tell their own stories. By unconventionally building the film around its subjects’ narratives, Tracy Droz Tragos and Andrew Droz Palermo produced a uniquely honest representation of the boys’ lives. Additionally, by integrating these first-person narratives with observational footage and making cautious editorial and artistic decisions, the filmmakers created a powerful and remarkably authentic film.</p>
-<p>As a study compiling interviews with documentarians <a href="http://cmsimpact.org/resource/honest-truths-documentary-filmmakers-on-ethical-challenges-in-their-work/">found</a>, “many documentary filmmakers work with people whom they have chosen and typically see themselves as stewards of the subjects’ stories.” This was certainly the case for the filmmakers of <em>Rich Hill</em>, who carefully crafted the entire project around the fabric of their subjects’ narratives in an enlightening and refreshingly objective way.</p>
-<p><em>Rich Hill</em> exemplifies how filmmakers can use documentary as a platform to facilitate storytelling to develop films that are insightful, moving, and — above all — truthful.</p>
+<h1 id="stephanie-gemmell"><strong><em>Stephanie Gemmell</em></strong></h1>
+<p>sgemmell@gwu.edu • <a href="https://www.linkedin.com/in/stephgemmell/">LinkedIn Profile</a></p>
+<h3 id="research-interests"><u><strong>Research Interests</strong></u></h3>
+<p>• Applying neurotheology to reconceptualize selfhood, subjectivity, and free will in existentialist philosophies</p>
+<p>• Considering the relationships between absurdism, neuroexistentialism, and theories in humanistic psychology<br />
+</p>
+<h3 id="education"><u><strong>Education</strong></u></h3>
+<p><strong>Master of Philosophy in Theology</strong> - Expected Graduation June 2023</p>
+<p><em>University of Oxford - Oxford, UK</em></p>
+<p><u>Subfield</u>: Modern Theology</p>
+<p><strong>Bachelor of Arts in Religion</strong> - May 2021</p>
+<p><em>The George Washington University - Washington, DC</em></p>
+<p>GPA 3.95, Phi Beta Kappa, Enosinian Scholars Program, University Honors Program, Dean’s List</p>
+<p><u>Minors</u>: Psychological &amp; Brain Sciences; Journalism &amp; Mass Communication</p>
+<p><u>Thesis</u>: “‘Willing Deeply and Inwardly’: Neurotheology and Free Will in Kierkegaardian Existentialism”</p>
+<h3 id="research-experience"><u><strong>Research Experience</strong></u></h3>
+<p><strong>Undergraduate Research Assistant</strong> - January 2020 – May 2020</p>
+<p><em>GW Religion Department - Washington, DC</em></p>
+<p>• Investigated the demographics of Corinth’s population in the first century CE, including residents’ ethnic identities, occupations, and participation in religious practices, under the guidance of Professor Paul Duff</p>
+<p>• Analyzed and synthesized findings from more than 10 academic sources published between 2003 and 2016 to understand the evolution of research related to Professor Duff’s focus</p>
+<h3 id="teaching-and-writing-experience"><u><strong>Teaching and Writing Experience</strong></u></h3>
+<p><strong>Writing Center Consultant</strong> - January 2020 – May 2021</p>
+<p><strong>Consultant-in-Training</strong> - September – December 2019</p>
+<p><em>GW Writing Center - Washington, DC</em></p>
+<p>• Collaborated with clients at different stages of the writing process with the goal of strengthening their independent writing and editing abilities</p>
+<p>• Advised students from a variety of academic disciplines 8 hours per week as a Consultant, offering personalized guidance related to clarity, word choice, sentence structure, citations, and voice development</p>
+<p>• Completed 20 hours of practicum tutoring and developed a client-centered teaching philosophy</p>
+<p><strong>Writing Lab Tutor</strong> - May 2020 – May 2021</p>
+<p><em>TutorMe - Remote</em></p>
+<p>• Provided individualized academic support and personalized feedback to approximately 15 students per week using the TutorMe virtual lesson platform</p>
+<p>• Taught students techniques for approaching complex subjects and clearly expressing their ideas, tailoring instruction to meet students’ immediate needs and long-term learning objectives</p>
+<p><strong>Campus Editor</strong> - August 2018 – May 2019</p>
+<p><strong>Staff Writer</strong> - August 2017 – May 2018</p>
+<p><em>The Rival GW - Washington, DC</em></p>
+<p>• Edited contributors’ stories to ensure accuracy while promoting quality reporting and commentary focused on campus events and the GW community, generating more than 10,000 annual pageviews</p>
+<p><strong>Reporting Intern</strong> - June – August 2018</p>
+<p><em>Herald-Mail Media - Hagerstown, MD</em></p>
+<p>• Reported and wrote 1-2 succinct and informative articles per day about subjects relevant to the Hagerstown area, covering hard news and developing locally-focused feature stories</p>
+<h3 id="scholarships-and-professional-achievements"><u><strong>Scholarships and Professional Achievements</strong></u></h3>
+<p>• Albert Clark Award for Best Undergraduate Religious Studies Paper – Theta Alpha Kappa (2021)</p>
+<p>• A. Morehouse Scholarship for Religious Studies – George Washington University (2020-2021)</p>
+<p>• Seward Scholarship – Alpha Delta Phi Foundation (2020, 2019)</p>
+<p>• Path to Excellence Scholarship – Sigma Alpha Lambda Leadership and Honors Organization (2020, 2019)</p>
+<p>• Chapter Leadership Scholarship – Sigma Alpha Lambda Leadership and Honors Organization (2019)</p>
+<p>• Youth Ambassador to the International Ministerial to Advance Religious Freedom – Loeb Institute (2019)</p>
+<p>• President’s Volunteer Service Award (2019)</p>
+<p>• Presidential Scholarship – George Washington University (2017-2021)<br />
+</p>
+<h3 id="research-publications-and-presentations"><u><strong>Research Publications and Presentations</strong></u></h3>
+<ul>
+<li><p>“‘Willing Deeply and Inwardly’: Neurotheology and Free Will in Kierkegaardian Existentialism,” <em>Journal of Theta Alpha Kappa</em> (Forthcoming, 2022).</p></li>
+<li><p>“Neurotheology and Free Will in Kierkegaardian Existentialism,” Poster presented at the GW Research Showcase (April 2021).</p>
+<ul>
+<li>Cross-Disciplinary Research Award - Undergraduate Winner</li>
+</ul></li>
+</ul>
+<h3 id="languages-and-skills"><u><strong>Languages and Skills</strong></u></h3>
+<p><strong>Languages</strong></p>
+<p>French – Intermediate reading, speaking ability (Québécois)</p>
+<p>Danish – Beginning reading ability</p>
+<p><strong>Technical Skills</strong></p>
+<p>News Edit Pro; RStudio; Squarespace; Weebly; Canva; Adobe Creative Cloud; MS Office</p>
+<h3 id="leadership-and-service-experience"><u><strong>Leadership and Service Experience</strong></u></h3>
+<p><strong>Organizational Leadership</strong></p>
+<p><u>GW Writing Center</u> – Washington, DC</p>
+<p>• Consultant Member, Working Group on Inclusive and Antiracist Language Guidelines, 2021</p>
+<p><u>Alpha Delta Phi Society</u> – Capital Chapter, Washington, DC</p>
+<p>• Recording Secretary, 2020 – 2021; Chaplain, 2019 –2020</p>
+<p><u>Sigma Alpha Lambda Leadership and Honors Organization</u> – GW Chapter, Washington, DC</p>
+<p>• President, 2019 – 2021; Vice President, 2018 – 2019</p>
+<p><u>GW Orchestra</u> – Washington, DC</p>
+<p>• Principal Flute, 2017 – 2020</p>
+<p><strong>Volunteer Experience</strong></p>
+<p>• Life Enrichment Volunteer – SpiriTrust Assisted Living, Chambersburg, PA, 2019</p>
+<p>• Client Service Volunteer – Greencastle Food Pantry, Greencastle, PA, 2013 – 2019</p>
+<p>• Volunteer Peer Tutor – Greencastle-Antrim High School, Greencastle, PA, 2014 – 2017</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

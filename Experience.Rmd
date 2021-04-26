@@ -1,0 +1,152 @@
+---
+title: "Experience"
+description: |
+  Here is the information from my academic and professional CV!
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# ***Stephanie Gemmell***
+
+sgemmell\@gwu.edu • [LinkedIn Profile](https://www.linkedin.com/in/stephgemmell/)
+
+### [**Research Interests**]{.ul}
+
+• Applying neurotheology to reconceptualize selfhood, subjectivity, and free will in existentialist philosophies
+
+• Considering the relationships between absurdism, neuroexistentialism, and theories in humanistic psychology\
+
+### [**Education**]{.ul}
+
+**Master of Philosophy in Theology** - Expected Graduation June 2023
+
+*University of Oxford - Oxford, UK*
+
+[Subfield]{.ul}: Modern Theology
+
+**Bachelor of Arts in Religion** - May 2021
+
+*The George Washington University - Washington, DC*
+
+GPA 3.95, Phi Beta Kappa, Enosinian Scholars Program, University Honors Program, Dean's List
+
+[Minors]{.ul}: Psychological & Brain Sciences; Journalism & Mass Communication
+
+[Thesis]{.ul}: "'Willing Deeply and Inwardly': Neurotheology and Free Will in Kierkegaardian Existentialism"
+
+### [**Research Experience**]{.ul}
+
+**Undergraduate Research Assistant** - January 2020 -- May 2020
+
+*GW Religion Department - Washington, DC*
+
+• Investigated the demographics of Corinth's population in the first century CE, including
+residents' ethnic identities, occupations, and participation in religious practices, under the guidance of Professor Paul Duff
+
+• Analyzed and synthesized findings from more than 10 academic sources published between 2003 and 2016 to understand the evolution of research related to Professor Duff's focus
+
+###  [**Teaching and Writing Experience**]{.ul}
+
+**Writing Center Consultant** - January 2020 -- May 2021
+
+**Consultant-in-Training** - September -- December 2019
+
+*GW Writing Center - Washington, DC*
+
+• Collaborated with clients at different stages of the writing process with the goal of strengthening their independent writing and editing abilities
+
+• Advised students from a variety of academic disciplines 8 hours per week as a Consultant, offering personalized guidance related to clarity, word choice, sentence structure, citations, and voice
+development
+
+• Completed 20 hours of practicum tutoring and developed a client-centered teaching philosophy
+
+**Writing Lab Tutor** - May 2020 -- May 2021
+
+*TutorMe - Remote*
+
+• Provided individualized academic support and personalized feedback to approximately 15 students per week using the TutorMe virtual lesson platform
+
+• Taught students techniques for approaching complex subjects and clearly expressing their ideas, tailoring instruction to meet students' immediate needs and long-term learning objectives
+
+**Campus Editor** - August 2018 -- May 2019
+
+**Staff Writer** - August 2017 -- May 2018
+
+*The Rival GW - Washington, DC*
+
+• Edited contributors' stories to ensure accuracy while promoting quality reporting and commentary focused on campus events and the GW community, generating more than 10,000 annual pageviews
+
+**Reporting Intern** - June -- August 2018
+
+*Herald-Mail Media - Hagerstown, MD*
+
+• Reported and wrote 1-2 succinct and informative articles per day about subjects relevant to the Hagerstown area, covering hard news and developing locally-focused feature stories
+
+### [**Scholarships and Professional Achievements**]{.ul}
+
+• Albert Clark Award for Best Undergraduate Religious Studies Paper -- Theta Alpha Kappa (2021)
+
+• A. Morehouse Scholarship for Religious Studies -- George Washington University (2020-2021)
+
+• Seward Scholarship -- Alpha Delta Phi Foundation (2020, 2019)
+
+• Path to Excellence Scholarship -- Sigma Alpha Lambda Leadership and Honors Organization (2020, 2019)
+
+• Chapter Leadership Scholarship -- Sigma Alpha Lambda Leadership and Honors Organization (2019)
+
+• Youth Ambassador to the International Ministerial to Advance Religious Freedom -- Loeb Institute (2019)
+
+• President's Volunteer Service Award (2019)
+
+• Presidential Scholarship -- George Washington University (2017-2021)\
+
+### [**Research Publications and Presentations**]{.ul}
+
+-   "'Willing Deeply and Inwardly': Neurotheology and Free Will in Kierkegaardian Existentialism," *Journal of Theta Alpha Kappa* (Forthcoming, 2022).
+
+-   "Neurotheology and Free Will in Kierkegaardian Existentialism," Poster presented at the GW Research Showcase (April 2021).
+
+    -   Cross-Disciplinary Research Award - Undergraduate Winner
+
+### [**Languages and Skills**]{.ul}
+
+**Languages**
+
+French -- Intermediate reading, speaking ability (Québécois)
+
+Danish -- Beginning reading ability
+
+**Technical Skills**
+
+News Edit Pro; RStudio; Squarespace; Weebly; Canva; Adobe Creative Cloud; MS Office
+
+### [**Leadership and Service Experience**]{.ul}
+
+**Organizational Leadership**
+
+[GW Writing Center]{.ul} -- Washington, DC
+
+• Consultant Member, Working Group on Inclusive and Antiracist Language Guidelines, 2021
+
+[Alpha Delta Phi Society]{.ul} -- Capital Chapter, Washington, DC
+
+• Recording Secretary, 2020 -- 2021; Chaplain, 2019 --2020
+
+[Sigma Alpha Lambda Leadership and Honors Organization]{.ul} -- GW Chapter, Washington, DC
+
+• President, 2019 -- 2021; Vice President, 2018 -- 2019
+
+[GW Orchestra]{.ul} -- Washington, DC
+
+• Principal Flute, 2017 -- 2020
+
+**Volunteer Experience**
+
+• Life Enrichment Volunteer -- SpiriTrust Assisted Living, Chambersburg, PA, 2019
+
+• Client Service Volunteer -- Greencastle Food Pantry, Greencastle, PA, 2013 -- 2019
+
+• Volunteer Peer Tutor -- Greencastle-Antrim High School, Greencastle, PA, 2014 -- 2017

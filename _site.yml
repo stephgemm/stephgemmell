@@ -8,10 +8,12 @@ navbar:
   right:
     - text: "Home"
       href: main_article.html
+    - text: "About"
+      href: about.html 
+    - text: "Experience/CV"
+      href: Experience.html
     - text: "Posts"
       href: index.html
-    - text: "About"
-      href: about.html
     - text: "Contributor Pages"
       menu:
         - text: "The Rival GW"
@@ -21,17 +23,18 @@ navbar:
     - text: "Work Samples"
       menu:
         - text: "Research Showcase 2021 Poster"
-          href: title-of-post.html
+          href: https://stephgemmell.netlify.app/posts/2021-04-20-title-of-post/
         - text: "Science Journalism Feature"
-          href: sciencejournalismfeature.html
+          href: https://stephgemmell.netlify.app/posts/2021-04-26-sciencejournalismfeature/
         - text: "Data Journalism - Consumer Complaints"
-          href: secondpost.html
+          href: https://stephgemmell.netlify.app/posts/2021-04-13-secondpost/
         - text: "Data Journalism - 2020 Campaign Events"
-          href: newpost.html
+          href: https://stephgemmell.netlify.app/posts/2021-04-13-newpost/
         - text: "Film Analysis: Rich Hill"
-          href: filmanalysis.html
+          href: https://stephgemmell.netlify.app/posts/2021-04-26-filmanalysis/
         - text: "Pedagogy: Genre Guide"
-          href: genre-resource-guide-religious-studies.html
+          href: https://stephgemmell.netlify.app/posts/2021-04-26-genre-resource-guide-religious-studies/
+
 output: 
   distill::distill_article:
     css: styles.css
