@@ -16,7 +16,7 @@ navbar:
       href: skills.html
     - text: "Posts"
       href: index.html
-    - text: "Contributor Pages"
+    - text: "Contributor Pages"    
       menu:
         - text: "The Rival GW"
           href: https://gw.therival.online/search?q=stephanie+gemmell
