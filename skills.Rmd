@@ -1,7 +1,7 @@
 ---
 title: "Skills"
 description: |
-  Here's an overview of my professional and technical skills.
+  Here's a brief overview of my professional and technical skills.
 output: distill::distill_article
 ---
 
@@ -9,6 +9,78 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-### Technical:
+### [Technical Skills and Software:]{.ul}
 
-### Professional:
+Adobe Creative Cloud
+
+-   Acrobat (creating and editing PDF documents)
+
+-   Audition (audio production and editing)
+
+-   Premiere Pro and Premiere Rush (fundamental video production and editing)
+
+MS Office
+
+-   Word
+
+-   PowerPoint
+
+-   Excel
+
+News Edit Pro
+
+-   Editorial and journalistic content management system
+
+RStudio
+
+-   Data analysis; data visualization using plotly
+
+Squarespace
+
+-   Collaborative website building and management
+
+Weebly
+
+-   Website and blog building software
+
+Canva
+
+-   Graphic design platform
+
+### [Professional Skills:]{.ul}
+
+***Research, Teaching, and Writing Skills:***
+
+Critical textual analysis
+
+-   Qualitative (literary, historical, cultural) and quantitative (discourse, thematic)
+
+Cross-disciplinary and multidisciplinary research
+
+-   Comparative research involving the neurosciences, social sciences, and humanities
+
+Client-centered tutoring
+
+-   Individualized and student-centered writing center consulting (in-person and virtual)
+
+CMOS and APA styles
+
+-   Advanced working knowledge of of Chicago Style and APA Style
+
+***Languages:***
+
+French – Intermediate reading, speaking ability (Québécois)
+
+Danish – Beginning reading ability
+
+Attic Greek – Beginning reading ability
+
+***Composing and Digital Audio Production:***
+
+Musescore
+
+-   Music composition and notation software
+
+Waveform
+
+-   Digital audio workstation (DAW); music and audio production, mixing, and editing
